@@ -59,7 +59,7 @@ function displayFavourite() {
         output += `
         <div class="col-md-3">
         <div>
-        <img src="${localStorage.getItem(key)}">
+//         <img src="${localStorage.getItem(key)}">
         <h5>${key}</h5>
         </div>
         </div>
