@@ -19,7 +19,7 @@ function getMovies(searchText) {
                 <img src="${movie.Poster}">
                 <h5>${movie.Title}</h5>
                 <a onClick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
-                <a onClick="favouriteMovie('${movie.Poster}','${movie.Title}')" class="btn btn-primary" href="favouriteMovie.html">Favourite Movie</a>
+                <a onClick="favouriteMovie('${movie.Poster}','${movie.Title}')" class="btn btn-primary" href="favouriteMovie.html">ADD TO Favourite Movie</a>
                 
                 </div>
                 </div>
